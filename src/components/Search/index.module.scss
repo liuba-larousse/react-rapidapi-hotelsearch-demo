@@ -1,0 +1,27 @@
+.container{
+  position: absolute;
+top: 40px;
+z-index: 101;
+left: 50%;
+transform: translateX(-50%);
+
+background-color: white;
+}
+
+.input{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+  input{
+    border: none;
+    cursor: pointer;
+    &:focus{
+      outline-width: 0;
+    }
+  }
+ strong{
+   font-size: 20px;
+ }
+}

@@ -1,0 +1,37 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  background-color: white;
+  z-index:100;
+  width: 100%;
+  height: 75px;
+
+}
+
+.icon{
+  object-fit: contain;
+  height: 50px;
+margin-left:20px;
+}
+
+.search{
+  flex: 1;
+display: flex;
+justify-content: center;
+border: 0.5px solid lightgrey;
+border-radius:25px;
+padding:  5;
+max-width: 250px;
+min-width: 250px;
+padding: 2px;
+}
+
+.right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  justify-content: space-between;
+}
